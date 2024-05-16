@@ -31,3 +31,13 @@ console.log("two")
 // 載入器
 // 載入 SASS 樣式表
 import "./style.scss"
+
+
+// 補充
+// 加入標題
+import title from "./title.js"
+document.body.appendChild(title)
+
+// 加入列表
+import list from "./list.js"
+document.body.appendChild(list)
