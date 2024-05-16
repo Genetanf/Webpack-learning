@@ -10,6 +10,11 @@ module.exports={
         path:path.resolve(__dirname,"dist")
     },
 
+    // DevServer 設定
+    devServer:{
+        static:"./dist"
+    },
+
     // 模組載入規則
     module:{
         rules:[
